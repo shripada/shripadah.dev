@@ -9,7 +9,6 @@ export default defineConfig({
   site: 'https://example.com',
   integrations: [mdx(), sitemap()],
   vite: {
-    // @ts-ignore
     plugins: [tailwindcss()],
   },
 });
